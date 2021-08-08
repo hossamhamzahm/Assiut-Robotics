@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#cover-div{
+    position: relative;
+    min-height: 400px;
+}
+
+#cover-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+#cover-overlay2{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.prof-card{
+    height: 100%;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    /* text-align: center; */
+    padding: 0 8px;
+    margin: 10px 3px;
+    text-indent: 0;
+    color: #FFF;
+    line-height: 2em;
+    outline: none;
+}
