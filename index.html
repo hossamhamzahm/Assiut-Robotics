@@ -9,6 +9,7 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -38,6 +39,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#instructors">Instructors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about-us">About Us</a>
@@ -84,8 +88,8 @@
                     <div class="text-center text-md-start mb-4">
                         <div class="card bg-dark h-100">
                             <div class="card-body">
-                                <h1 class="h1">
-                                    <i class="bi bi-person-square"></i>
+                                <h1 class="display-4">
+                                    <i class="bi bi-people-fill"></i>
                                 </h1>
                                 <h3 class="card-title mb-3">Prof. Dr. Mazen Abdel-Salam</h3>
                                 <p class="card-text">
@@ -99,8 +103,8 @@
                     <div class="text-center mb-4">
                         <div class="card bg-secondary h-100">
                             <div class="card-body mt-3 mt-md-0">
-                                <h1 class="h1">
-                                    <i class="bi bi-person-square"></i>
+                                <h1 class="display-4">
+                                    <i class="bi bi-people-fill"></i>
                                 </h1>
                                 <h3 class="card-title mb-3">Dr. Khalel Ali</h3>
                                 <p class="card-text">
@@ -114,7 +118,7 @@
                     <div class="text-center text-md-end mb-4">
                         <div class="card bg-dark h-100">
                             <div class="card-body position-md-relative">
-                                <h1 class="h1">
+                                <h1 class="display-4">
                                     <i class="bi bi-people-fill"></i>
                                 </h1>
                                 <h3 class="card-title mb-3">ENG. Samuel Sameh</h3>
@@ -130,40 +134,36 @@
         </div>
     </section>
 
-    <!-- Instructos -->
-    <section class="bg-primary text-center p-5 g-4">
-        <div class="container">
-            <h1 class="display-4 text-light">Instructors</h1>
-            <div class="row row-cols-md-3 mt-4">
-                <div class="mt-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Prof. Dr. Mazen Abdel-Salam</h5>
-                            <p class="card-text">Professor in Electrical Engineering departement</p>
-                            <a href="#" class="btn btn-primary">Contact</a>
-                        </div>
-                    </div>
+    <!-- contact us -->
+    <section id="contact-us" class="bg-primary text-center p-5 lh-base">
+        <div class="container row justify-content-center mx-auto py-5">
+            <h1 class="display-4 text-light col-12 col-md-6 mb-5 mb-md-0">Contact Us</h1>
+            <div class="row row-cols-4 justify-content-center align-items-center col-12 col-md-6">
+
+                <div class="">
+                    <a class="link link-light display-5" target="_blank" href="https://www.facebook.com/robotics.assiut/">
+                        <i class="bi bi-facebook"></i>
+                    </a>
                 </div>
 
-                <div class="mt-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Dr. Khalel Ali</h5>
-                            <p class="card-text">Assistant Professor in Mechanical Engineering Departement</p>
-                            <a href="#" class="btn btn-primary">Contact</a>
-                        </div>
-                    </div>
+                <div class="">
+                    <a class="link link-light display-5" target="_blank" href="https://www.linkedin.com/company/assiut-robotics/">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
                 </div>
 
-                <div class="mt-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">ENG. Samuel Sameh</h5>
-                            <p class="card-text">Demonstrator in Mechanical Engineering Departement</p>
-                            <a href="#" class="btn btn-primary">Contact</a>
-                        </div>
-                    </div>
+                <div class="">
+                    <a class="link link-light display-5" target="_blank" href="https://www.instagram.com/assiutrobotics/">
+                        <i class="bi bi-instagram"></i>
+                    </a>
                 </div>
+                
+                <div class="">
+                    <a class="link link-light display-5" target="_blank" href="https://www.youtube.com/channel/UCdjCScWUwuZ11Rj5YEZ7BqQ">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+
             </div>
         </div>
     </section>
@@ -217,27 +217,6 @@
                 <li class="nav-item">
                     <span class="nav-link btn text-secondary px-5" data-date="2020" aria-current="page" href="#">2020</span>
                 </li>
-                <!--
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                        aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-                -->
             </ul>
         </div>
     </section>
@@ -245,7 +224,7 @@
     
     <!-- 2007-2015 carousel -->
     <section class="contests" data-date="2007-2015">
-        <div id="myCarousel2007-2015" class="carousel slide" data-bs-ride="carousel">
+        <div id="myCarousel2007-2015" class="carousel slide" data-bs-interval="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel2007-2015" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#myCarousel2007-2015" data-bs-slide-to="1" aria-label="Slide 2" class=""
@@ -265,7 +244,8 @@
                         <div class="carousel-caption text-start">
                             <h1>Minesweepers</h1>
                             <p class="d-none d-md-block">6th place in the first participation among 56 participating team.</p>
-                            <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                            <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">
+                                Learn More</a></p>
                         </div>
                     </div>
                 </div>
@@ -281,7 +261,7 @@
                             <h1>Minesweepers</h1>
                             <p class="d-none d-md-block">is an international competition that started in 2012 and still ongoing. Aiming for civilian purpose demining or
                             humanitarian demining by finding and removing abandoned landmines without any threats to the human nor the environment.</p>
-                            <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn more</a></p>
+                            <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -300,7 +280,7 @@
                             The Arabian winners are qualified to compete in the international competition. Teams compete in design and building ROV
                             can achieve a definite under water mission. This mission is set by MATE as a model of a real mission and changes every
                             year.</p>
-                            <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                            <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                         </div>
                     </div>
                 </div>
@@ -315,7 +295,7 @@
                         <div class="carousel-caption text-end">
                             <h1>ROV</h1>
                             <p class="d-none d-md-block">13th place in the first participation among 50 participating teams.</p>
-                            <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                            <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                         </div>
                     </div>
                 </div>
@@ -336,7 +316,7 @@
 
     <!-- 2016 carousel -->
     <section class="contests d-none" data-date="2016">
-        <div id="myCarousel2016" class="carousel slide" data-bs-ride="carousel">
+        <div id="myCarousel2016" class="carousel slide" data-bs-interval="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel2016" data-bs-slide-to="0" class="active"
                     aria-label="Slide 1"></button>
@@ -365,7 +345,7 @@
                                 sufficient data about robotics science, furthermore, it promotes the engineering science and profession at the
                                 university.
                             </p>
-                            <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                            <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                         </div>
                     </div>
                 </div>
@@ -382,7 +362,7 @@
                             <p class="d-none d-md-block">
                                 Conducting workshops for the projects (ROV -Minesweeper -Hoverboard.)
                             </p>
-                            <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn more</a></p>
+                            <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -401,7 +381,7 @@
                                 supervised by Prof. Dr. Mazen Abd-Elsalam (The Academic General Supervisor) and the heads of mechanical and electrical
                                 engineering departments.
                             </p>
-                            <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                            <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                         </div>
                     </div>
                 </div>
@@ -418,7 +398,7 @@
                             <p class="d-none d-md-block">
                                 5th in the Minesweepers local competition
                             </p>
-                            <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                            <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                         </div>
                     </div>
                 </div>
@@ -436,7 +416,7 @@
                             <p class="d-none d-md-block">
                                 12th place in the Arab Regional ROV competition among 50 participating team from Arab region.
                             </p>
-                            <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                            <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                         </div>
                     </div>
                 </div>
@@ -454,7 +434,7 @@
                             <p class="d-none d-md-block"">
                                 Assiut Robotics' submarine ROV.
                             </p>
-                            <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                            <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                         </div>
                     </div>
                 </div>
@@ -473,7 +453,7 @@
 
 <!-- 2017 carousel -->
 <section class="contests d-none" data-date="2017">
-    <div id="myCarousel2017" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel2017" class="carousel slide" data-bs-interval="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel2017" data-bs-slide-to="0" class="active"
                 aria-label="Slide 1"></button>
@@ -510,7 +490,7 @@
                             profession at the
                             university.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -534,7 +514,7 @@
                             profession at the
                             university.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -558,7 +538,7 @@
                             profession at the
                             university.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -575,7 +555,7 @@
                         <p class="d-none d-md-block">
                             Conducting workshops for the projects (ROV -Minesweeper -Hoverboard.)
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -596,7 +576,7 @@
                             mechanical and electrical
                             engineering departments.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -613,7 +593,7 @@
                         <p class="d-none d-md-block">
                             5th in the Minesweepers local competition
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -632,7 +612,7 @@
                             12th place in the Arab Regional ROV competition among 50 participating team from Arab
                             region.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -650,7 +630,7 @@
                         <p class="d-none d-md-block">
                             Assiut Robotics' submarine ROV.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -669,7 +649,7 @@
 
 <!-- 2018 carousel -->
 <section class="contests d-none" data-date="2018">
-    <div id="myCarousel2018" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel2018" class="carousel slide" data-bs-interval="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel2018" data-bs-slide-to="0" class="active"
                 aria-label="Slide 1"></button>
@@ -693,7 +673,7 @@
                     <div class="carousel-caption text-start">
                         <h1>Minesweepers</h1>
                         <p class="d-none d-md-block">6th place in the first participation among 56 participating team.</p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -711,7 +691,7 @@
                             purpose demining or
                             humanitarian demining by finding and removing abandoned landmines without any threats to the
                             human nor the environment.</p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -734,7 +714,7 @@
                             can achieve a definite under water mission. This mission is set by MATE as a model of a real
                             mission and changes every
                             year.</p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -749,7 +729,7 @@
                     <div class="carousel-caption text-end">
                         <h1>ROV</h1>
                         <p class="d-none d-md-block">13th place in the first participation among 50 participating teams.</p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -767,7 +747,7 @@
 
 <!-- 2019 carousel -->
 <section class="contests d-none" data-date="2019">
-    <div id="myCarousel2019" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel2019" class="carousel slide" data-bs-interval="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel2019" data-bs-slide-to="0" class="active"
                 aria-label="Slide 1"></button>
@@ -803,7 +783,7 @@
                             profession at the
                             university.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -820,7 +800,7 @@
                         <p class="d-none d-md-block">
                             Conducting workshops for the projects (ROV -Minesweeper -Hoverboard.)
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -841,7 +821,7 @@
                             mechanical and electrical
                             engineering departments.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -858,7 +838,7 @@
                         <p class="d-none d-md-block">
                             5th in the Minesweepers local competition
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -877,7 +857,7 @@
                             12th place in the Arab Regional ROV competition among 50 participating team from Arab
                             region.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -895,7 +875,7 @@
                         <p class="d-none d-md-block">
                             Assiut Robotics' submarine ROV.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -913,7 +893,7 @@
 
 <!-- 2020 carousel -->
 <section class="contests d-none" data-date="2020">
-    <div id="myCarousel2020" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel2020" class="carousel slide" data-bs-interval="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel2020" data-bs-slide-to="0" class="active"
                 aria-label="Slide 1"></button>
@@ -948,7 +928,7 @@
                             main parts: -online fair that included the following topics: GUI, Embedded system, and control -offline fair that
                             included the following projects; ROV, Minesweeper, CNC, and 3D printer.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -968,7 +948,7 @@
                             main parts: -online fair that included the following topics: GUI, Embedded system, and control -offline fair that
                             included the following projects; ROV, Minesweeper, CNC, and 3D printer.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -988,7 +968,7 @@
                             speeches were about; embedded systems, soft skills, construction, sales engineering, mechanical design and production,
                             industrial automation, and biomedical engineering.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -1006,7 +986,7 @@
                             The graduation party of 13th batch of Assiut Robotics, students are honored in the fourth and last grade, it was a
                             special celebration at the engineering syndicate.    
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -1036,7 +1016,7 @@
                             In 11 Oct, 2020, We were proud to announce the launch of our new logo as a part of the ongoing evolution and we have the
                             same passion even if the logo changes.
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -1057,7 +1037,7 @@
                             Arts, Engineering and its departments, Commerce, Law, Sciences and its departments, Physical Education, Fundamentals of
                             Religion).
                         </p>
-                        <p><a class="btn btn-lg btn-primary d-md-none" href="#">Learn More</a></p>
+                        <p><a class="btn btn-lg btn-primary d-md-none" data-bs-toggle="modal" data-bs-target="#carousel-modal">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -1087,16 +1067,36 @@
 
 
     <section class="bg-dark text-light p-3">
-        <div class="container g-4 text-start position-relative">
+        <div class="container-fluid g-4 text-start position-relative">
             <p class=" p-0 m-0">Copyrights 2021 &copy; Assiut Robotics</p>
-            <p class="text-secondary p-0 m-0">Designed by 
-                <a target="_blank" href="https://www.hossamhamzahm.github.io" class="text-secondary">Hossam Hamza</a>
+            <p class="text-secondary p-0 m-0 ">Designed by 
+                <a target="_blank" href="https://hossamhamzahm.github.io" class="text-secondary">Hossam Hamza</a>
             </p>
-            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <a href="#" class="position-absolute bottom-0 end-0 mx-3" >
                 <i class="bi bi-arrow-up-circle h1"></i>
             </a>
         </div>
     </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="carousel-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="carousel-modal-label">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="carousel-paragraph"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

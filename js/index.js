@@ -1,9 +1,13 @@
+// Global Vars
 let nav_items = document.querySelectorAll(".nav-tabs .nav-item");
 let contests = document.querySelectorAll("section.contests");
 let navbar_items = document.querySelectorAll('.navbar-nav li a')
+let carousel_paragraph = document.getElementById('carousel-paragraph');
+let carousel_heading = document.getElementById('carousel-modal-label');
+let carousel_buttons = document.querySelectorAll('.carousel-item .btn');
 
 
-
+// add/remove active class from navbar items
 navbar_items.forEach(item => {
     item.addEventListener('click', ()=>{
         navbar_items.forEach(element => {
@@ -14,6 +18,7 @@ navbar_items.forEach(item => {
 });
 
 
+// showing the timeline based on the clicked year
 nav_items.forEach(item =>{
     item.addEventListener('click', (e)=>{
         if(!e.target.classList.contains('active')){
@@ -43,4 +48,18 @@ nav_items.forEach(item =>{
             e.target.classList.add('active');
         }
     });
-})
+});
+
+
+// adding the text of the carousel slide to teh modal
+carousel_buttons.forEach(button => {
+    button.addEventListener('click', ()=>{
+        // getting the text from the heading and the paragraph in the carousel
+        const paragraph = button.parentElement.previousElementSibling.innerHTML;
+        const heading = button.parentElement.previousElementSibling.previousElementSibling.innerHTML;
+
+        // adding the text to the carousel
+        carousel_heading.innerHTML = heading;
+        carousel_paragraph.innerHTML = paragraph;
+    })
+});
