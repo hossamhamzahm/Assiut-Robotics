@@ -9,12 +9,18 @@ let carousel_buttons = document.querySelectorAll('.carousel-item .btn');
 
 // add/remove active class from navbar items
 navbar_items.forEach(item => {
-    item.addEventListener('click', ()=>{
+    item.addEventListener('click', (e)=>{
+        e.preventDefault();
         navbar_items.forEach(element => {
             element.classList.remove('active');
         });
         item.classList.add('active');
-    })
+
+        // scrolling just above the element
+        window.scrollTo(window.scrollX, 
+            document.querySelector((item.getAttribute('href') === "#") ? "#cover-div" : item.getAttribute('href'))
+            .offsetTop - 70);
+    });
 });
 
 
